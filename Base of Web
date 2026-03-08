@@ -1,0 +1,238 @@
+# FartFella Games – Complete Arcade Repo
+
+A browser arcade containing multiple mini‑games built with HTML, CSS, and JavaScript.
+
+---
+
+# Project Structure
+
+```
+FartFella-Games/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── games/
+│   ├── snake/
+│   │   ├── snake.html
+│   │   ├── snake.css
+│   │   └── snake.js
+│   │
+│   ├── tictactoe/
+│   │   ├── tictactoe.html
+│   │   ├── tictactoe.css
+│   │   └── tictactoe.js
+│   │
+│   ├── memory/
+│   │   ├── memory.html
+│   │   ├── memory.css
+│   │   └── memory.js
+│   │
+│   ├── breakout/
+│   │   ├── breakout.html
+│   │   ├── breakout.css
+│   │   └── breakout.js
+│   │
+│   ├── pong/
+│   │   ├── pong.html
+│   │   ├── pong.css
+│   │   └── pong.js
+│   │
+│   ├── flappy/
+│   │   ├── flappy.html
+│   │   ├── flappy.css
+│   │   └── flappy.js
+│   │
+│   └── space-shooter/
+│       ├── shooter.html
+│       ├── shooter.css
+│       └── shooter.js
+│
+└── assets/
+    └── thumbnails/
+```
+
+---
+
+# Homepage
+
+Header:
+
+"FartFella Games"
+
+Subtitle:
+
+"My Games"
+
+Game cards show:
+
+• thumbnail
+• name
+• open game page
+
+Game page contains:
+
+• image
+• description
+• PLAY button
+
+Settings button (top right):
+
+• dark/light mode
+• sound toggle
+• animation toggle
+
+---
+
+# Game Features
+
+## Snake
+
+Features:
+
+• Walls ON/OFF
+• Snake skins
+• Background themes
+• Multiple fruits
+• Clean GUI
+
+Fruit scoring example:
+
+Apple = 1
+Banana = 2
+Cherry = 5
+Golden Apple = 10
+
+---
+
+## Tic Tac Toe
+
+Features:
+
+• Clean UI
+• PvP
+• PvE
+• 3 AI difficulties
+• Win line animation
+• Super Tic Tac Toe mode
+
+AI levels:
+
+Easy – random
+Medium – block wins
+Hard – minimax
+
+---
+
+## Memory Match
+
+Emoji card game.
+
+Difficulties:
+
+Easy = 4x4
+Medium = 6x6
+Hard = 8x8
+
+Extras:
+
+• timer
+• move counter
+• best score
+
+---
+
+## Breakout
+
+Brick breaker arcade.
+
+Features:
+
+• paddle control
+• brick durability
+• multiple levels
+• powerups
+• score system
+
+Powerups:
+
+Fast Ball
+Sticky Paddle
+Multi Ball
+Laser Paddle
+
+---
+
+## Pong
+
+Features:
+
+• PvP
+• PvE
+• 3 AI difficulties
+• win screen
+• score limits
+• ball speed scaling
+• paddle skins
+
+---
+
+## Flappy Bird
+
+Difficulties based on pipes to win:
+
+Easy = 50
+Medium = 100
+Expert = 250
+
+Victory screen appears when goal reached.
+
+---
+
+## Space Shooter
+
+Features:
+
+• player spaceship
+• enemy waves
+• shooting
+• boss fight
+• powerups
+
+Upgrades:
+
+Double Shot
+Shield
+Laser Beam
+Missiles
+
+---
+
+# Controls (Typical)
+
+Arrow Keys / WASD – movement
+Mouse – menu interaction
+Space – shoot or jump depending on game
+
+---
+
+# Future Upgrades
+
+• achievements
+• leaderboards
+• mobile support
+• save progress
+• more games
+
+---
+
+# Deployment
+
+Upload repo to GitHub and enable GitHub Pages.
+
+Your arcade will be playable at:
+
+```
+https://YOURNAME.github.io/FartFella-Games/
+```
